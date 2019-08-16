@@ -14,14 +14,13 @@ class Main extends React.Component {
         <Grid container>
           <Grid item xs={4}></Grid>
           <Grid item xs={4}>
-            <Typography className={classes.logo}>LOGO</Typography>
+            <Typography className={classes.logo}>Face Access Protocol</Typography>
             <Link to='/register' style={{textDecoration: 'none'}}>
               <Button className={classes.buttonStyles}>Register</Button>
             </Link>
             <Link to='/logs' style={{textDecoration: 'none'}}>
               <Button className={classes.buttonStyles}>Logs</Button>
             </Link>
-            <Button className={classes.buttonStyles}>Users</Button>
           </Grid>
           <Grid item xs={4}></Grid>
         </Grid>

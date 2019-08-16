@@ -1,6 +1,6 @@
 module.exports = styles = (theme) => ({ //eslint-disable-line
   root: {
-    backgroundColor: '#F1B557',
+    backgroundColor: '#FFF',
     width: '100%',
     height: '100vh'
   },
